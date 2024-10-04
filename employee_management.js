@@ -1,4 +1,4 @@
-//Task 1: Create an Employee Class
+//Task 5: Create and Manage Departments and Employees
 
 // Create departments
 const writing = new Department("Writing");
@@ -9,10 +9,6 @@ const Rocky = new Employee("Rocky", 80000, "Support Writer", "Writing");
 const Jimmy = new Employee("Jimmy", 75000, "Stunt Double", "Acting");
 const Johns = new Manager("Johns", 120000, "Head Writer", "Writing", 20000);
 const Arnold = new Manager("Arnold", 130000, "Main Character", "Acting", 25000);
-
-
-
-//Task 2: Create a Department Class
 
 // Add employees to departments
 writing.addEmployee(Rocky);
