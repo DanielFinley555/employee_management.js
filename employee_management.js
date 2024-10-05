@@ -1,3 +1,20 @@
+//Task 1: Create an Employee Class
+
+class Employee {
+    constructor(name, salary, position, department) {
+        this.name = name;
+        this.salary = salary;
+        this.position = position;
+        this.department = department;
+    }
+    
+    get details() {
+        return this.name, this.position, this.salary
+    }
+}
+
+
+
 //Task 5: Create and Manage Departments and Employees
 
 // Create departments
