@@ -6,12 +6,36 @@ class Employee {
         this.salary = salary;
         this.position = position;
         this.department = department;
+        //log the console log
+        console.log(`Employee Name: ${name}`);
+        console.log(`Salary: ${salary}`);
+        console.log(`Position: ${position}`);
+        console.log(`Department: ${department}`);
     }
     
     get details() {
-        return this.name, this.position, this.salary
+        return console.log(`${this.name}, ${this.position}, ${this.salary}`)
     }
 }
+
+
+
+//Task 2: Create a Department Class
+
+//creating the department class, so "Department" is defined and the code works.
+class Department {
+    constructor(name, employees) {
+        this.name = name;
+        this.employees = employees
+    }
+}
+
+    //adding a new employee
+    addEmployee(Employee); {
+    };
+    
+    //adding up the the total department salary
+    getDepartmentSalary = Employee.reduce(this.salary)
 
 
 
@@ -21,10 +45,15 @@ class Manager extends Employee {
     constructor(name, salary, position, department, bonus) {
         super(name, "Manager", salary, position, department);
         this.bonus = bonus;
+        console.log(`Employee Name: ${name}`);
+        console.log("Manager")
+        console.log(`Salary: ${salary}`);
+        console.log(`Position: ${position}`);
+        console.log(`Department: ${department}`);
     }
 
     get details() {
-        return this.name, this.position, this.salary, this.bonus
+        return console.log(`${this.name}, Manager, ${this.position}, ${this.salary}, ${this.bonus}`)
     }
 }
 
